@@ -9,3 +9,15 @@ console.log(findMin([5, 4, 2, 7, 8]))
 console.log(findMin([5, -3, 0, 12, 8, -7]))
 console.log(findMin([]))
 
+//another way for the above
+
+function findMinimum(arr) {
+    arr = arr.sort((a, b) => {
+        if (b > a) return -1  //return -1 means swipe the value
+    })
+    return arr[0]
+}
+
+console.log(findMinimum([5, 4, 2, 7, 8]))
+console.log(findMinimum([5, -3, 0, 12, 8, -7]))
+console.log(findMinimum([]))
