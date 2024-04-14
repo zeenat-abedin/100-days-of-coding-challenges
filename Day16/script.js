@@ -24,6 +24,7 @@ console.log(findMinimum([]))
 
 //another way for the above
 function findMinOfArr(arr) { 
+    if (arr.length === 0) return undefined
     return Math.min(...arr)
 }
  
