@@ -21,3 +21,12 @@ function findMinimum(arr) {
 console.log(findMinimum([5, 4, 2, 7, 8]))
 console.log(findMinimum([5, -3, 0, 12, 8, -7]))
 console.log(findMinimum([]))
+
+//another way for the above
+function findMinOfArr(arr) { 
+    return Math.min(...arr)
+}
+ 
+console.log(findMinOfArr([5, 4, 2, 7, 8]))
+console.log(findMinOfArr([5, -3, 0, 12, 8, -7]))
+console.log(findMinOfArr([]))
