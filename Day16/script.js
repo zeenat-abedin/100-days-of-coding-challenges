@@ -1,4 +1,4 @@
-//Find the minimum value in an array.
+//16. Find the minimum value in an array.
 
 function findMin(arr) {
     arr = arr.sort((a, b) => a-b) //sorting in ascending order

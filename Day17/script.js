@@ -1,4 +1,4 @@
-//Write a function to convert a string to camelCase & snake_case.
+//17. Write a function to convert a string to camelCase & snake_case.
 
 const toCamelCase = (str) => {
     str = str.trim().split(' ')
