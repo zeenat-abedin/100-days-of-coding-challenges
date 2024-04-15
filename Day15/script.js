@@ -1,4 +1,4 @@
-//15 Write a function to calculate the sum of squares of all elements in an array.
+//15. Write a function to calculate the sum of squares of all elements in an array.
 
 // Input: [0,1,2,3,4]
 // Output: 30
