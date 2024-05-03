@@ -1,5 +1,4 @@
 // 1. Calculate mean of the array
-// 2. Calculate median of the array
 // 3. Calculate mode of the arrays
 
 function calculateMean(arr) {
