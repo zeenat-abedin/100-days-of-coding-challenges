@@ -1,5 +1,4 @@
 // 1. Calculate mean of the array
-// 3. Calculate mode of the arrays
 
 function calculateMean(arr) {
     if (arr.length === 0) return 0
