@@ -1,5 +1,7 @@
 // fibonacci using recursion
 
-function fibonacci(params) {
+function fibonacci(num) {
     
 }
+
+console.log(fibonacci(4))
