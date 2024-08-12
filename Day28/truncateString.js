@@ -4,4 +4,4 @@ function truncateString(str) {
     
 }
 
-console.log(truncateString('A-tisket a-tasket a green and a red flag', 8))
+console.log(truncateString('A-tisket a-tasket a green and a red flag', 8)) //Output -> A-tisket...
