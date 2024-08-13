@@ -1,7 +1,7 @@
 // Write a function that takes two parameters: a str and an integer representing the max length.
 
 function truncateString(str, count) {
-    // Check if the string is less than zero
+    // Check if the count is less than zero
     if (count < 0) {
         return str
     } else if (str.length > count) {
