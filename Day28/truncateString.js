@@ -9,4 +9,10 @@ function truncateString(str, count) {
     }
 }
 
+const truncatedString = (str, count) => {
+    return count < 0 ? str : str.slice(0, count).concat('...')
+}
+
 console.log(truncateString('A-tisket a-tasket a green and a red flag', 8)) //Output -> A-tisket...
+
+console.log(truncatedString('A-tisket a-tasket a green and a red flag', 8)) 
