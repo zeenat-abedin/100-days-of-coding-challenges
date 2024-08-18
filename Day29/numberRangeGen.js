@@ -10,4 +10,4 @@ const numberRange = (a,b) => {
 
 console.log(numberRange(0,5)) // Output -> [1, 2, 3, 4,  5]
 console.log(numberRange(3,7))
-console.log(numberRange(-2,2))
+console.log(numberRange(-2,4))
