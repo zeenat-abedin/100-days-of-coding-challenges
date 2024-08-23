@@ -21,5 +21,5 @@ function simplePasswordValidator(password) {
 }
 
 console.log(simplePasswordValidator('absfkfkgkg'))
-console.log(simplePasswordValidator('ab5Asfkfkgkg'))
+console.log(simplePasswordValidator('Ab5Asfkfkgkg'))
 console.log(simplePasswordValidator('absfkfkgkg'))
