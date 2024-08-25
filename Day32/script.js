@@ -10,9 +10,12 @@ const filterSearch = (value) => {
    gallery.forEach(currElem => {
        console.log((currElem.dataset.category))
        if (currElem.dataset.category === value) {
-         currElem.computedStyleMap.display = 'block'
-       } else {
-        currElem.computedStyleMap.display = 'none'
+         currElem.style.display = 'block'
+       } else if ( value === 'all' ) {
+           currElem.style.display = 'block'
+       }
+       else {
+        currElem.style.display = 'none'
        }
    });
 }
