@@ -13,8 +13,7 @@ const filterSearch = (value) => {
          currElem.style.display = 'block'
        } else if ( value === 'all' ) {
            currElem.style.display = 'block'
-       }
-       else {
+       } else {
         currElem.style.display = 'none'
        }
    });
