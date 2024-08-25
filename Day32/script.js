@@ -9,10 +9,8 @@ tabs.addEventListener('click', (event) => {
 const filterSearch = (value) => {
    gallery.forEach(currElem => {
        console.log((currElem.dataset.category))
-       if (currElem.dataset.category === value) {
+       if (currElem.dataset.category === value || value === 'all') {
          currElem.style.display = 'block'
-       } else if ( value === 'all' ) {
-           currElem.style.display = 'block'
        } else {
         currElem.style.display = 'none'
        }
