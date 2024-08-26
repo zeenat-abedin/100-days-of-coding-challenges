@@ -2,7 +2,6 @@ const tabs = document.querySelector('.tabs')
 const gallery = document.querySelectorAll('.images')
 
 tabs.addEventListener('click', (event) => {
-    console.log(event.target.dataset.category)
     filterSearch(event.target.dataset.category)
 })
 
