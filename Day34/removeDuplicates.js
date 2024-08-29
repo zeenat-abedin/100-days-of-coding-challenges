@@ -5,4 +5,4 @@ function removeDuplicatesFromAnArray(arr) {
 }
 
 
-console.log(removeDuplicatesFromAnArray([1,2,2,3,4,5,5,6]))
+console.log(removeDuplicatesFromAnArray([1,2,2,3,4,5,5,6, 7, 8, 8]))
