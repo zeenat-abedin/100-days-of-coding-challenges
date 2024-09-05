@@ -1,7 +1,7 @@
 //Check object emptiness
 
 const isEmptyObject = (obj) => {
-    return obj.length === 0 ? `it's empty`: `it's not empty`
+   return Object.keys(obj).length === 0
 }
 
 console.log(isEmptyObject({ name: 'vinod' }))
