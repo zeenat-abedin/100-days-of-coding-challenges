@@ -4,4 +4,5 @@ const isEmptyObject = () => {
     
 }
 
-console.log(isEmptyObject())
+console.log(isEmptyObject({ name: 'vinod' }))
+console.log(isEmptyObject({ }))
