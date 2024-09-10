@@ -1,8 +1,11 @@
 // Dates willl be provided in the format "YYYY-MM-DD"
 
 const calculateDaysBetweenDates = (d1, d2) => {
-    let currDate = new Date()
-    console.log(currDate.toLocaleDateString())
+    let date1 = new Date(d1)
+    let date2 = new Date(d2)
+
+    let diff = Math.abs(date2 - date1)
+    return diff / (1000 * 60 * 60 * 24)
 }
 
-console.log(calculateDaysBetweenDates("2024-01-01", "2024-01-2031")) //Output -> 30
+console.log(calculateDaysBetweenDates("2024-01-05", "2024-01-31")) //Output -> 26
